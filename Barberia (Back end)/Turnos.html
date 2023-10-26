@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+
+</head>
+<body>
+    <header>
+        <h1>CJ - CE - GE</h1>
+    </header>
+
+    <section>
+        <h2>BARBERIA MATADEROS</h2>
+        <p>Mataderos, C.A.B.A.</p>
+    </section>
+    <main>
+        <h2>Accesos</h2>
+            <nav>
+                <a href="index.html">NOSOTROS</a>
+                <a href="Servicios.html">SERVICIOS</a>
+                <a href="Turnos.html">TURNOS</a>
+                <a href="Contacto.html">CONTACTO</a>
+                <a href="Registro.html">REGISTRO</a>
+                <a href="Adminpelu.html">ADMINISTRACION</a>
+            </nav>
+<!--Comienzo de turnos-->
+
+
+<h3>Turnos</h3>
+<form action="./Base de datos/Turnos.php" method="Post">
+<p>
+    <label>Eligir horarios
+    <input type="time" name="horas">
+</label>
+</p>
+<label> Elegir mes
+    <input type="date"  name="meses"> 
+</label>
+        <label>Numero de telefono
+            <input type="numeral" placeholder="Numero de telefono" name="tele">
+        </label>
+        <label>Nombre completo
+            <input type="text" placeholder="Nombre completo" name="ombre">
+        </label>
+        <label for="name">Elegi tu Peluquero favorito</label>
+        <input list="names" id="mame" name="nombres">
+        <datalist id="names">
+        <option value="Juaquin"></option>
+        <option value="Maríano"></option>
+        <option value="Diana"></option>
+        <option value="Ezequiel"></option>
+        </datalist>
+        </label>
+            <label> Servicios
+            <input list="cortes" name="cortes">
+            <datalist id="cortes">
+                <option value="corte">$2500 </option>
+                <option value="Lavado-Peinado">$1500</option>
+                <option value="Tintura">$5000</option>
+                <option value="Afeitar">$1000</option>
+                </datalist>
+            </label>
+            <label>Total a pagar
+                <input type="number" name="pagar" id="pagar">
+            </label>
+            <input type="submit">
+              </form> 
+
+    <footer>
+        <p>Todos los derechos Reservados IFTS4 Mataderos</p>
+    </footer>
+</body>
+</html> 

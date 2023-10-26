@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control maestro</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <h1 class="titulouno">Barberia</h1>
+<nav class="menu">
+        <a href="index.html">NOSOTROS</a>
+        <a href="Servicios.html">SERVICIOS</a>
+        <a href="Turnos.html">TURNOS</a>
+        <a href="Contacto.html">CONTACTO</a>
+        <a href="Registro.html">REGISTRO</a>
+        <a href="Adminpelu.html">ADMINISTRACION</a>
+    </nav>
+    <h1 class="titulouno">Nuevos datos</h1>
+    <div class="principal"> 
+    <form action="./Base de datos/insertardatos.php" method="POST">
+        <label for="oras">Horario:</label><br>
+        <input type="text"  name="oras"><br>
+        
+        <label for="mes">Mes:</label><br>
+        <input type="date"  name="mes"><br>
+        
+        <label for="tel">Telefono:</label><br>
+        <input type="text" name="tel"><br>
+        
+        <label for="ombres">Nombre:</label><br>
+        <input type="text"  name="ombres"><br>
+        
+        <label for="names">Peluquero:</label><br>
+        <input type="text"  name="names"><br>
+        
+        <label for="peinados">Corte:</label><br>
+        <input type="text"  name="peinados"><br>
+        
+        <label for="pagos">Pago:</label><br>
+        <input type="text"  name="pagos"><br>
+        <input type="submit">
+    </form>
+    </div>
+    <h2>Lectura</h2>
+    <div class="secundario">
+    <form action="./Base de datos/lectura.php" method="POST">
+        <label for="ingreso">Seleccion de dato
+            <input type="text" name="ingreso">
+        </label>
+        <input type="submit">
+    </form>
+    </div>
+    <h2>Borrar tabla</h2>
+    <div class="terciario">
+    <form action="./Base de datos/delete.php" method="POST">
+        <label> 
+            <input type="text" name="magia">
+        </label>
+        <input type="submit">
+    </form>
+    </div>
+    <h2>Actualizar</h2>
+    <div class="cuarto">
+    <form action="./Base de datos/actualizar.php" method="POST">
+        <label for="oras">Horario:</label><br>
+        <input type="text"  name="oras"><br>
+        
+        <label for="mes">Mes:</label><br>
+        <input type="date"  name="mes"><br>
+        
+        <label for="cel">Telefono:</label><br>
+        <input type="number" name="cel"><br>
+        
+        <label for="ombres">Nombre:</label><br>
+        <input type="text"  name="ombres"><br>
+        
+        <label for="names">Peluquero:</label><br>
+        <input type="text"  name="names"><br>
+        
+        <label for="peinados">Corte:</label><br>
+        <input type="text"  name="peinados"><br>
+        
+        <label for="pagos">Pago:</label><br>
+        <input type="text"  name="pagos"><br>
+        <input type="submit">
+    </form>
+    </div>
+    </body>
+    </html>
+    
+
+
+
+
+
+</body>
+</html>

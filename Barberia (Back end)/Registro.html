@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>CJ - CE - GE</h1>
+    </header>
+
+    <section>
+        <h2>BARBERIA MATADEROS</h2>
+        <p>Mataderos, C.A.B.A.</p>
+    </section>
+    <main>
+        <h2>Accesos</h2>
+        
+            <nav>
+                <a href="index.html">NOSOTROS</a>
+                <a href="Servicios.html">SERVICIOS</a>
+                <a href="Turnos.html">TURNOS</a>
+                <a href="Contacto.html">CONTACTO</a>
+                <a href="Registro-html">REGISTRO</a>
+                <a href="Adminpelu.html">ADMINISTRACION</a>
+            </nav>
+    <main>
+        <h3>Registro de Cliente</h3>
+        <form  action="./Base de datos/Guardadodb.php" method="POST">
+            <label>Telefono completo:
+                <input type="text"  placeholder="telefono" name='fono'><br>
+            </label>
+            
+            <label>nombre completo:
+            <input type="text" placeholder="nombre completo" name='leto'><br>
+            </label> 
+        <label>contraseña
+            <input type="password"  placeholder="contraseña" name='seña'><br>
+        </label>
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+    
+</body>
+</html>

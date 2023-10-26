@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: white; /* Texto en blanco */
+    background-image: linear-gradient(to right, rgb(73, 52, 27), rgb(139, 92, 60));
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #141414;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Estilos para h1 */
+h1 {
+    color: #ece6e5;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para h2 */
+h2 {
+    color: white; /* Texto en blanco */
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+a {
+    color: white; /* Botones en blanco */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #888585;
+}
+
+main {
+    background-color: #a8783a;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(233, 233, 233);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/*Nosotros.html*/
+body.nosotros-page {
+    background-color: #ffffff;
+    color:rgb(17, 0, 0)}
+
+    main{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+    footer {
+        background-color: #333;
+        text-align: center;
+        padding: 20px 0;
+        color: rgb(233, 233, 233);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+/*Servicios.html*/
+body.servicios-page {
+    background-color: #ffffff;
+    color:rgb(17, 0, 0)}
+
+    main{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+    footer {
+        background-color: #333;
+        text-align: center;
+        padding: 20px 0;
+        color: rgb(233, 233, 233);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+/*Turnos.html*/
+body.turnos-page {
+    background-color: #ffffff;
+    color:rgb(17, 0, 0)}
+
+    main{
+        text-align: center;
+        
+    }
+
+    p{
+        text-align: center;
+    }
+    footer {
+        background-color: #333;
+        text-align: center;
+        padding: 20px 0;
+        color: rgb(233, 233, 233);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+/*Contacto.html*/
+body.contacto-page {
+    background-color: #ffffff;
+    color:rgb(17, 0, 0)}
+    main{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    footer {
+        background-color: #333;
+        text-align: center;
+        padding: 20px 0;
+        color: rgb(233, 233, 233);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+/*Registro.html*/
+body.registro-page {
+    background-color: #ffffff;
+    color:rgb(17, 0, 0)}
+    main{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+    }
+    footer {
+        background-color: #333;
+        text-align: center;
+        padding: 20px 0;
+        color: rgb(233, 233, 233);
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+
+/*Adminpelu.html*/
+.principal{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.titulouno{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 20px 0;
+    color: rgb(233, 233, 233);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.secundario{
+    display: flex;
+    justify-content: center;
+}
+
+.terciario{
+    display: flex;
+    justify-content: center;
+}
+
+.cuarto{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Imagen*/
+
+.Juaquin_{
+    width: 400px;
+    height: 250px;
+    float:left
+}
+
+.Mariano{
+    width: 400px;
+    height: 250px;
+    float:left
+}
+
+.Juaquin_{
+    width: 400px;
+    height: 250px;
+    float:left
+}
+
+.Juaquin_{
+    width: 400px;
+    height: 250px;
+    float:left
+}
